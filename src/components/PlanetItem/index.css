@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.planet-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  background-image: url(https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png);
+  width: 60vw;
+  height: 60vh;
+  text-align: center;
+}
+
+.img-size {
+  width: 35vw;
+  height: 35vh;
+}
+
+@media (max-width: 768px) {
+  .img-size {
+    width: 60vw;
+    height: 35vh;
+  }
+  .planet-name {
+    color: red;
+    font-family: roboto;
+    font-size: 20px;
+  }
+  .para {
+    color: grey;
+    font-family: roboto;
+    font-size: 18px;
+    width: 50vw;
+    overflow-y: auto;
+  }
+}
+
+@media (max_width: 768px) and (min-width: 900px) {
+  .img-size {
+    width: 35vw;
+    height: 15vh;
+  }
+
+  .para {
+    color: grey;
+    font-family: roboto;
+    font-size: 25px;
+    width: 50vw;
+    overflow-y: auto;
+  }
+  .planet-name {
+    color: red;
+    font-family: roboto;
+    font-size: 40px;
+  }
+  .planet-con {
+    height: 40vh;
+  }
+}
+
+.planet-name {
+  color: red;
+  font-family: roboto;
+  font-size: 30px;
+}
+.para {
+  color: grey;
+  font-family: roboto;
+  font-size: 18px;
+  width: 50vw;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

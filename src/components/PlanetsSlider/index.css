@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.space-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png);
+  background-size: cover;
+}
+.slider-container {
+  height: 60vh;
+  width: 60vw;
+}
+
+.head {
+  color: grey;
+  font-size: 55px;
+  font-family: roboto;
+}
+
+@media (max-width: 768px) {
+  .head {
+    color: grey;
+    font-size: 40px;
+    font-family: roboto;
+  }
+}
